@@ -1,0 +1,2 @@
+export const STORE_QUESTIONS = 'STORE_QUESTIONS';
+export const STORE_SCORE = 'STORE_SCORE';

@@ -1,0 +1,21 @@
+.Question-question {
+  margin-bottom: 30px;
+  font-weight: 800;
+  width: 800px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.Question-answer {
+  cursor: pointer;
+  width: 600px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Question-answer:hover {
+  background-color: orange;
+  border-radius: 30px;
+}

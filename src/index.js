@@ -7,6 +7,7 @@ import './index.css';
 import Home from './components/Home';
 import Trivial from './components/Trivial';
 import NotFound from './components/NotFound';
+import Score from './components/Score';
 import store from './store';
 import * as serviceWorker from './serviceWorker';
 import Layout from './components/Layout';
@@ -17,8 +18,9 @@ ReactDOM.render(
       <Layout>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/trivial' component={Trivial} />
-          <Route path='' component={NotFound} />
+          <Route exact path='/trivial/:order' component={Trivial} />
+          <Route exact path='/score' component={Score} />
+          <Route component={NotFound} />
         </Switch>
       </Layout>
     </Router>
